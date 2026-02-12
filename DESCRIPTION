@@ -1,0 +1,39 @@
+Package: ggsegverse
+Title: Easily Install and Load the 'ggseg' Ecosystem
+Version: 0.1.0
+Authors@R: c(
+    person("Athanasia Mo", "Mowinckel",
+            email = "a.m.mowinckel@psykologi.uio.no",
+            role = c("aut", "cre"),
+            comment = c(ORCID = "0000-0002-5756-0223"))
+    )
+Description: The 'ggseg' ecosystem is a set of packages for brain region
+    visualization using 'ggplot2'. This package makes it easy to install
+    and load all core packages in a single call. Learn more about the
+    'ggseg' ecosystem at <https://ggseg.github.io/ggseg/>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1)
+Imports:
+    ggseg.formats,
+    ggseg,
+    ggseg3d,
+    ggseg.hub,
+    neuromapr,
+    cli,
+    rlang,
+    purrr,
+    lifecycle,
+    utils
+Remotes:
+    ggseg/ggseg.formats,
+    ggseg/ggseg,
+    ggseg/ggseg3d,
+    ggseg/ggseg.hub,
+    ggseg/neuromapr
+URL: https://ggseg.github.io/ggsegverse/,
+    https://github.com/ggseg/ggsegverse
+BugReports: https://github.com/ggseg/ggsegverse/issues
+Language: en-US
