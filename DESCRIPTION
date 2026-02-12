@@ -37,3 +37,7 @@ URL: https://ggseg.github.io/ggsegverse/,
     https://github.com/ggseg/ggsegverse
 BugReports: https://github.com/ggseg/ggsegverse/issues
 Language: en-US
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)

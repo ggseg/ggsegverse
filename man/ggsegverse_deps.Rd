@@ -7,8 +7,8 @@
 ggsegverse_deps()
 }
 \value{
-A data frame with columns: `package`, `local`, `available`,
-  `behind`.
+A data frame with columns: \code{package}, \code{local}, \code{available},
+\code{behind}.
 }
 \description{
 List ggsegverse package dependencies and versions

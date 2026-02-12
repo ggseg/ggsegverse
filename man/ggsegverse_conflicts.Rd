@@ -7,7 +7,7 @@
 ggsegverse_conflicts()
 }
 \value{
-A `ggsegverse_conflicts` object (invisibly).
+A \code{ggsegverse_conflicts} object (invisibly).
 }
 \description{
 Lists all function name conflicts between ggsegverse packages and
